@@ -1,12 +1,13 @@
 # vim-remux
 
-**Rerun tests in the next tmux pane with the press of a key.** Consider it a light-weight alternative to [vim-dispatch].
+**Rerun tests in the next tmux pane with the press of a key.**<br>
+Consider it a light-weight alternative to [vim-dispatch].
 
 1. Open Vim in tmux.
 2. Open a tmux split pane and run your tests there, like type `npm test` or something.
 3. Edit some files in Vim and press <kbd>Ctrl</kbd> + <kbd>S</kbd>. Remux will save the current file and type *up-enter* in the next tmux pane for you.
 
-![](http://ricostacruz.com/til/images/tmux-repeat.gif)
+![](http://i.imgur.com/RNhZIAa.gif)
 
 [vim-dispatch]: https://github.com/tpope/vim-dispatch
 
